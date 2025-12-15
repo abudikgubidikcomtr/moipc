@@ -20,6 +20,8 @@ def gelen_mesaj():
     while True:
         client, client_address = SERVER.accept()
         print("%s:%s bağlandı." % client_address)
+        with open("ipkayitlari.txt", "w") as iplist:
+            iplist.write(str(client) + str(client_address))
         # Bağlanan kişiye ilk karşılama mesajını gönderiyoruz
         client.send(bytes("AbudikGubidik Sohbet Uygulamasına Hoş Geldiniz!\nLütfen isminizi giriniz:", "utf8"))
         addresses[client] = client_address
