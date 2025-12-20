@@ -1,4 +1,5 @@
 We take your message, IP address
+We store your IP address for 30 days.
 We don't store your message
 Your message will be broadcasted in everyone in the chat
 We store your IP address for security reasons. If you don't obey the Terms of Service. we can share these informations to official organizations (like police centers) if they are wanted.
